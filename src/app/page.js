@@ -4,6 +4,7 @@ import Navbar from "./components/navbar.js";
 import Skills from "./skills/page.js";
 import Service from "./service/page.js";
 import Contact from "./contact/page.js";
+import Link from "next/link";
 
 export default function Home() {
   const aboutme = `I am a dedicated software developer and competitive coder with a wealth of experience in various domains of software development. My journey has been marked by significant achievements, including winning four national-level hackathons, showcasing my ability to solve complex problems and innovate under pressure.
@@ -31,7 +32,9 @@ I am passionate about learning and constantly seeking to expand my knowledge. Th
               <button className={styles.btn1}>Resume</button>
               <button className={styles.btn2}>Portfolio</button>
             </div>
-            <button className={styles.btn3}>Github</button>
+            <Link href="https://github.com/D1urga" target="blank">
+              <button className={styles.btn3}>Github</button>
+            </Link>
           </div>
         </div>{" "}
         <div className={styles.title} style={{ zIndex: "4" }}>

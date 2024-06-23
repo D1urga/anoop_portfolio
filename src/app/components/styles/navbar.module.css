@@ -68,7 +68,7 @@
   .head {
     font-weight: 700;
     font-size: 18px;
-    color: rgb(211, 153, 153);
+    color: rgb(232, 194, 194);
   }
   .icon1 {
     font-size: 20px;
@@ -78,7 +78,7 @@
   .icon2 {
     font-size: 20px;
     margin-left: 15px;
-    color: rgb(211, 153, 153);
+    color: rgb(232, 194, 194);
   }
   .icon1:hover,
   .icon2:hover {
