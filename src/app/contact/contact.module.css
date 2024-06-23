@@ -302,7 +302,7 @@
     border-radius: 4px;
     margin-bottom: 15px;
     color: rgb(178, 170, 170);
-    border: 1px solid rgb(196, 120, 120);
+    border: 1px solid rgb(231, 199, 199);
     margin-top: 5px;
 
     box-shadow: rgb(54, 54, 54) 0 0 3px 0;
@@ -319,14 +319,14 @@
     margin-bottom: 0px;
     color: white;
     margin-top: 5px;
-    border: 1px solid rgb(196, 120, 120);
+    border: 1px solid rgb(231, 199, 199);
     box-shadow: rgb(54, 54, 54) 0 0 3px 0;
   }
   .btn {
     border: none;
 
     outline: none;
-    background-color: rgb(196, 120, 120);
+    background-color: rgb(231, 199, 199);
     height: 45px;
     width: 93vw;
     border-radius: 4px;
@@ -356,7 +356,7 @@
     font-size: 13px;
   }
   .p3 {
-    color: rgb(196, 120, 120);
+    color: rgb(231, 199, 199);
     font-weight: 500;
     font-size: 15px;
     margin-bottom: 15px;
@@ -375,7 +375,7 @@
     margin: 0 10px;
   }
   .dev {
-    color: rgb(196, 120, 120);
+    color: rgb(228, 156, 156);
     text-align: center;
     font-size: 13px;
     font-weight: 500;
