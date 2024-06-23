@@ -10,17 +10,17 @@
   .head {
     font-weight: 600;
     font-size: 17px;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 234, 234);
   }
   .icon1 {
     font-size: 20px;
     margin: 0 6px;
-    color: rgb(255, 255, 255);
+    color: rgb(254, 248, 243);
   }
   .icon2 {
     font-size: 20px;
     margin-left: 35px;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 234, 234);
   }
   .icon1:hover,
   .icon2:hover {
@@ -39,17 +39,17 @@
   .head {
     font-weight: 600;
     font-size: 17px;
-    color: rgb(255, 255, 255);
+    color: rgb(211, 153, 153);
   }
   .icon1 {
     font-size: 20px;
     margin: 0 6px;
-    color: rgb(255, 255, 255);
+    color: rgb(248, 229, 214);
   }
   .icon2 {
     font-size: 20px;
     margin-left: 35px;
-    color: rgb(255, 255, 255);
+    color: rgb(211, 153, 153);
   }
   .icon1:hover,
   .icon2:hover {
@@ -67,18 +67,18 @@
   }
   .head {
     font-weight: 700;
-    font-size: 17px;
-    color: rgb(255, 255, 255);
+    font-size: 18px;
+    color: rgb(211, 153, 153);
   }
   .icon1 {
-    font-size: 18px;
-    margin: 0 6px;
-    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 0 5px;
+    color: rgb(248, 229, 214);
   }
   .icon2 {
-    font-size: 18px;
-    margin-left: 20px;
-    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-left: 15px;
+    color: rgb(211, 153, 153);
   }
   .icon1:hover,
   .icon2:hover {
