@@ -275,13 +275,14 @@
     margin-left: 20px;
   }
   .main {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
   }
   .div1 {
-    width: 97vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -296,13 +297,14 @@
     outline: none;
     background-color: black;
     height: 45px;
-    width: 90vw;
+    width: 92vw;
     padding: 0 10px;
     border-radius: 4px;
     margin-bottom: 20px;
     color: rgb(178, 170, 170);
     border: 1px solid rgb(93, 84, 60);
     margin-top: 8px;
+
     box-shadow: rgb(54, 54, 54) 0 0 3px 0;
   }
   .input1 {
@@ -311,7 +313,7 @@
     outline: none;
     background-color: black;
     height: 157px;
-    width: 90vw;
+    width: 92vw;
     padding: 5px 10px;
     border-radius: 4px;
     margin-bottom: 0px;
@@ -326,7 +328,7 @@
     outline: none;
     background-color: rgb(93, 84, 60);
     height: 45px;
-    width: 90vw;
+    width: 92vw;
     border-radius: 4px;
     color: rgb(0, 0, 0);
     font-weight: 600;
@@ -337,7 +339,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-right: 10px;
   }
   .part2 {
     display: flex;
