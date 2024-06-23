@@ -295,23 +295,23 @@
   .input {
     border: none;
     outline: none;
-    background-color: black;
-    height: 50px;
+    background-color: rgb(15, 15, 15);
+    height: 55px;
     width: 93vw;
     padding: 0 10px;
     border-radius: 4px;
     margin-bottom: 15px;
     color: rgb(178, 170, 170);
-    border: 1px solid rgb(197, 176, 176);
+    border: 1px solid rgb(25, 25, 25);
     margin-top: 5px;
 
-    box-shadow: rgb(54, 54, 54) 0 0 3px 0;
+    /* box-shadow: rgb(54, 54, 54) 0 0 3px 0; */
   }
   .input1 {
     resize: none;
     border: none;
     outline: none;
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     height: 157px;
     width: 93vw;
     padding: 5px 10px;
@@ -319,14 +319,14 @@
     margin-bottom: 0px;
     color: white;
     margin-top: 5px;
-    border: 1px solid rgb(197, 176, 176);
-    box-shadow: rgb(54, 54, 54) 0 0 3px 0;
+    border: 1px solid rgb(25, 25, 25);
+    /* box-shadow: rgb(54, 54, 54) 0 0 3px 0; */
   }
   .btn {
     border: none;
 
     outline: none;
-    background-color: rgb(197, 176, 176);
+    background-color: rgb(40, 40, 40);
     height: 45px;
     width: 93vw;
     border-radius: 4px;
@@ -352,11 +352,11 @@
     justify-content: flex-start;
   }
   .p2 {
-    color: rgb(197, 197, 197);
+    color: rgb(193, 193, 193);
     font-size: 13px;
   }
   .p3 {
-    color: rgb(197, 176, 176);
+    color: rgb(190, 171, 171);
     font-weight: 500;
     font-size: 15px;
     margin-bottom: 15px;
@@ -371,7 +371,7 @@
 
   .icon {
     font-size: 30px;
-    color: rgb(228, 224, 207);
+    color: rgb(174, 173, 172);
     margin: 0 10px;
   }
   .dev {
