@@ -58,7 +58,7 @@
 }
 @media screen and (max-width: 520px) {
   .nav {
-    height: 3rem;
+    height: 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,8 +66,8 @@
     padding: 0 3vw;
   }
   .head {
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 700;
+    font-size: 17px;
     color: rgb(255, 255, 255);
   }
   .icon1 {

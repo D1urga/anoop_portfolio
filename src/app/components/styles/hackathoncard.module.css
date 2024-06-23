@@ -115,7 +115,7 @@
     justify-content: center;
     align-items: center;
     background-color: black;
-    padding: 20px 0;
+    padding: 15px 0;
     border-bottom: 1px solid rgb(8, 8, 8);
   }
   .title1 {
@@ -123,7 +123,7 @@
     justify-content: center;
     align-items: center;
     background-color: black;
-    padding: 20px 0;
+    padding: 15px 0;
     border-top: 1px solid rgb(8, 8, 8);
   }
   .title1 p {
@@ -152,5 +152,6 @@
     color: rgb(213, 213, 213);
     font-size: 14px;
     line-height: 20px;
+    word-break: break-all;
   }
 }

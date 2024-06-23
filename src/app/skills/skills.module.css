@@ -67,7 +67,7 @@
 @media screen and (max-width: 520px) {
   .outer_div {
     background-color: black;
-    padding: 30px 2.5vw;
+    padding: 30px 2vw;
   }
   .title {
     display: flex;

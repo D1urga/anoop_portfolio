@@ -131,6 +131,7 @@
     font-size: 18px;
     text-align: center;
     padding-bottom: 20px;
+    display: none;
   }
   .headline2 {
     color: rgb(204, 197, 177);
@@ -145,7 +146,7 @@
     color: rgb(213, 213, 213);
     padding: 5px 0;
     font-size: 15px;
-    padding-right: 2vw;
+    padding-right: 0;
   }
   .l1 {
     color: rgb(196, 120, 120);
