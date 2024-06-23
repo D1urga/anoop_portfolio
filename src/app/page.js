@@ -31,14 +31,15 @@ I am passionate about learning and constantly seeking to expand my knowledge. Th
               <button className={styles.btn1}>Resume</button>
               <button className={styles.btn2}>Portfolio</button>
             </div>
+            <button className={styles.btn3}>Github</button>
           </div>
+        </div>{" "}
+        <div className={styles.title} style={{ zIndex: "4" }}>
+          <p>About</p>
+          <div className={styles.line}></div>
         </div>
         <div className={styles.outer_div1}>
           <div className={styles.div3}>
-            <div className={styles.title}>
-              <p>About</p>
-              <div className={styles.line}></div>
-            </div>
             <p className={styles.p6}>{aboutme}</p>
           </div>
           <div className={styles.div4}>
