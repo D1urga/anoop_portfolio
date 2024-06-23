@@ -36,18 +36,43 @@ export default function Skills() {
       </div>
       <div className={styles.grid}>
         {" "}
-        <Skillcard img="/i1.jpg" text={text1} title="Flutter" />
-        <Skillcard img="/i1.jpg" text={text2} title="Next JS" />{" "}
-        <Skillcard img="/i1.jpg" text={text3} title="React JS" />{" "}
-        <Skillcard img="/i1.jpg" text={text5} title="Node JS" />{" "}
-        <Skillcard img="/i1.jpg" text={text4} title="Express JS" />{" "}
-        <Skillcard img="/i1.jpg" text={text6} title="Machine Learning" />{" "}
-        <Skillcard img="/i1.jpg" text={text7} title="Deep Learning" />
-        <Skillcard img="/i1.jpg" text={text8} title="Java" />
-        <Skillcard img="/i1.jpg" text={text9} title="C++" />
-        <Skillcard img="/i1.jpg" text={text10} title="Python" />
-        <Skillcard img="/i1.jpg" text={text11} title="TypScript" />
-        <Skillcard img="/i1.jpg" text={text12} title="JavaScript" />
+        <Skillcard img="/i1.jpg" text={text1} title="Flutter" stars="☆☆☆☆☆" />
+        <Skillcard
+          img="/i1.jpg"
+          text={text2}
+          title="Next JS"
+          stars="☆☆☆☆☆"
+        />{" "}
+        <Skillcard img="/i1.jpg" text={text3} title="React JS" stars="☆☆☆☆☆" />{" "}
+        <Skillcard img="/i1.jpg" text={text5} title="Node JS" stars="☆☆☆☆" />{" "}
+        <Skillcard
+          img="/i1.jpg"
+          text={text4}
+          title="Express JS"
+          stars="☆☆☆☆☆"
+        />{" "}
+        <Skillcard
+          img="/i1.jpg"
+          text={text6}
+          title="Machine Learning"
+          stars="☆☆☆☆"
+        />{" "}
+        <Skillcard
+          img="/i1.jpg"
+          text={text7}
+          title="Deep Learning"
+          stars="☆☆☆"
+        />
+        <Skillcard img="/i1.jpg" text={text8} title="Java" stars="☆☆☆☆☆" />
+        <Skillcard img="/i1.jpg" text={text9} title="C++" stars="☆☆☆☆" />
+        <Skillcard img="/i1.jpg" text={text10} title="Python" stars="☆☆☆☆☆" />
+        <Skillcard img="/i1.jpg" text={text11} title="TypScript" stars="☆☆☆☆" />
+        <Skillcard
+          img="/i1.jpg"
+          text={text12}
+          title="JavaScript"
+          stars="☆☆☆☆☆"
+        />
       </div>
       <div className={styles.title}>
         <p>Achievements</p>
