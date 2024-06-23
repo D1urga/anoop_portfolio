@@ -23,7 +23,7 @@ I am passionate about learning and constantly seeking to expand my knowledge. Th
           <div className={styles.div2}>
             <p className={styles.p1}>ANOOP</p>
             <p className={styles.p2}>CHAUDHARY</p>
-            <div className={styles.title}>
+            <div className={styles.title1}>
               <p className={styles.p3}>Developer</p>
               <p className={styles.p4}>Competitive Coder</p>
             </div>
@@ -35,7 +35,10 @@ I am passionate about learning and constantly seeking to expand my knowledge. Th
         </div>
         <div className={styles.outer_div1}>
           <div className={styles.div3}>
-            <p className={styles.p5}>ABOUT</p>
+            <div className={styles.title}>
+              <p>About</p>
+              <div className={styles.line}></div>
+            </div>
             <p className={styles.p6}>{aboutme}</p>
           </div>
           <div className={styles.div4}>

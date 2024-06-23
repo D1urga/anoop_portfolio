@@ -297,7 +297,7 @@
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-  .title {
+  .title1 {
     display: flex;
   }
   .p3,
@@ -308,14 +308,14 @@
   }
   .btns {
     display: flex;
-    margin-top: 30px;
+    margin-top: 70px;
   }
   .btn1,
   .btn2 {
     border: none;
     outline: none;
-    width: 40vw;
-    height: 55px;
+    width: 42vw;
+    height: 50px;
     margin: 2px 5px;
     font-weight: 600;
     cursor: pointer;
@@ -392,5 +392,20 @@
     line-height: 20px;
     word-spacing: 2px;
     word-break: break-all;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .title p {
+    color: rgb(197, 151, 115);
+    font-size: 30px;
+  }
+  .line {
+    width: 60vw;
+    height: 1px;
+    background-color: rgb(197, 151, 115);
+    margin-left: 20px;
   }
 }

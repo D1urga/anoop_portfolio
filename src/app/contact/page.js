@@ -7,6 +7,7 @@ import {
   FaInstagram,
   FaTwitter,
 } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -61,7 +62,12 @@ export default function Contact() {
       </div>
       <div className={styles.icons}>
         <FaTwitter className={styles.icon} />
-        <FaInstagram className={styles.icon} />
+        <Link
+          href="https://www.instagram.com/anoopchaudhary1?igsh=dHZvdWVkeTRscmFw"
+          target="blank"
+        >
+          <FaInstagram className={styles.icon} />
+        </Link>
         <FaGoogle className={styles.icon} />
         <FaFacebook className={styles.icon} />
         <FaGithub className={styles.icon} />
