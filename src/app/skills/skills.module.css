@@ -1,0 +1,112 @@
+@media screen and (min-width: 900px) {
+  .outer_div {
+    background-color: black;
+    padding: 30px 3vw;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .title p {
+    color: rgb(197, 151, 115);
+    font-size: 30px;
+  }
+  .line {
+    width: 88vw;
+    height: 1px;
+    background-color: rgb(197, 151, 115);
+    margin-left: 20px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 10px;
+  }
+  .grid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 520px) {
+  .outer_div {
+    background-color: black;
+    padding: 30px 1vw;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .title p {
+    color: rgb(197, 151, 115);
+    font-size: 30px;
+  }
+  .line {
+    width: 88vw;
+    height: 1px;
+    background-color: rgb(197, 151, 115);
+    margin-left: 20px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 10px;
+  }
+  .grid1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .outer_div {
+    background-color: black;
+    padding: 30px 1vw;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .title p {
+    color: rgb(197, 151, 115);
+    font-size: 30px;
+  }
+  .line {
+    width: 88vw;
+    height: 1px;
+    background-color: rgb(197, 151, 115);
+    margin-left: 20px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 10px;
+  }
+  .grid1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+}
+@media screen and (max-width: 900px) and (min-width: 520px) {
+}
+@media screen and (max-width: 520px) {
+}
+@media screen and (min-width: 900px) {
+}
+@media screen and (max-width: 900px) and (min-width: 520px) {
+}
+@media screen and (max-width: 520px) {
+}
