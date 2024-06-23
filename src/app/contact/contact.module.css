@@ -289,7 +289,7 @@
     justify-content: center;
   }
   .p1 {
-    color: white;
+    color: rgb(209, 209, 209);
     font-size: 13px;
   }
   .input {
@@ -302,7 +302,7 @@
     border-radius: 4px;
     margin-bottom: 15px;
     color: rgb(178, 170, 170);
-    border: 1px solid rgb(137, 124, 88);
+    border: 1px solid rgb(196, 120, 120);
     margin-top: 5px;
 
     box-shadow: rgb(54, 54, 54) 0 0 3px 0;
@@ -319,14 +319,14 @@
     margin-bottom: 0px;
     color: white;
     margin-top: 5px;
-    border: 1px solid rgb(137, 124, 88);
+    border: 1px solid rgb(196, 120, 120);
     box-shadow: rgb(54, 54, 54) 0 0 3px 0;
   }
   .btn {
     border: none;
 
     outline: none;
-    background-color: rgb(137, 124, 88);
+    background-color: rgb(196, 120, 120);
     height: 45px;
     width: 93vw;
     border-radius: 4px;
@@ -352,12 +352,11 @@
     justify-content: flex-start;
   }
   .p2 {
-    color: white;
+    color: rgb(197, 197, 197);
     font-size: 13px;
   }
   .p3 {
-    color: white;
-    color: rgb(137, 124, 88);
+    color: rgb(196, 120, 120);
     font-weight: 500;
     font-size: 15px;
     margin-bottom: 15px;
@@ -372,11 +371,11 @@
 
   .icon {
     font-size: 30px;
-    color: rgb(221, 214, 183);
+    color: rgb(228, 224, 207);
     margin: 0 10px;
   }
   .dev {
-    color: white;
+    color: rgb(196, 120, 120);
     text-align: center;
     font-size: 13px;
     font-weight: 500;
