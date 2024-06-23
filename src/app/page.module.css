@@ -37,6 +37,7 @@
   .title {
     display: flex;
   }
+
   .p3,
   .p4 {
     color: rgb(208, 185, 110);
@@ -126,6 +127,21 @@
     font-size: 16px;
     line-height: 20px;
     word-spacing: 2px;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .title p {
+    color: rgb(197, 151, 115);
+    font-size: 30px;
+  }
+  .line {
+    width: 30vw;
+    height: 1px;
+    background-color: rgb(197, 151, 115);
+    margin-left: 20px;
   }
 }
 @media screen and (max-width: 900px) and (min-width: 520px) {
@@ -218,8 +234,8 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 20px 0;
-    padding-right: 1vw;
-    padding-left: 2vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
   }
   .div4 {
     display: flex;
@@ -259,6 +275,22 @@
     font-size: 16px;
     line-height: 20px;
     word-spacing: 2px;
+    word-break: break-all;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .title p {
+    color: rgb(197, 151, 115);
+    font-size: 30px;
+  }
+  .line {
+    width: 60vw;
+    height: 1px;
+    background-color: rgb(197, 151, 115);
+    margin-left: 20px;
   }
 }
 @media screen and (max-width: 520px) {

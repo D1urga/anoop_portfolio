@@ -31,28 +31,29 @@
     justify-content: center;
   }
   .p1 {
-    color: white;
+    color: rgb(187, 187, 187);
     font-size: 13px;
   }
   .input {
     border: none;
     outline: none;
-    background-color: black;
+
     height: 45px;
     width: 20vw;
     padding: 0 10px;
     border-radius: 4px;
     margin-bottom: 20px;
     color: rgb(178, 170, 170);
-    border: 1px solid rgb(93, 84, 60);
+    background-color: rgb(15, 15, 15);
+    border: 1px solid rgb(25, 25, 25);
     margin-top: 8px;
-    box-shadow: rgb(54, 54, 54) 0 0 3px 0;
+    /* box-shadow: rgb(54, 54, 54) 0 0 3px 0; */
   }
   .input1 {
     resize: none;
     border: none;
     outline: none;
-    background-color: black;
+
     height: 157px;
     width: 20vw;
     padding: 5px 10px;
@@ -60,18 +61,19 @@
     margin-bottom: 0px;
     color: white;
     margin-top: 8px;
-    border: 1px solid rgb(93, 84, 60);
-    box-shadow: rgb(54, 54, 54) 0 0 3px 0;
+    background-color: rgb(15, 15, 15);
+    border: 1px solid rgb(25, 25, 25);
+    /* box-shadow: rgb(54, 54, 54) 0 0 3px 0; */
   }
   .btn {
     border: none;
 
     outline: none;
-    background-color: rgb(93, 84, 60);
+    background-color: rgb(35, 35, 35);
     height: 45px;
     width: 20vw;
     border-radius: 4px;
-    color: rgb(0, 0, 0);
+    color: rgb(211, 207, 207);
     font-weight: 600;
     /* border: 1px solid rgb(93, 84, 60); */
   }
@@ -95,12 +97,12 @@
     justify-content: flex-start;
   }
   .p2 {
-    color: white;
+    color: rgb(164, 164, 164);
     font-size: 13px;
   }
   .p3 {
-    color: white;
-    color: rgb(93, 84, 60);
+    color: rgb(179, 178, 178);
+    color: rgb(82, 82, 82);
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 15px;
@@ -119,10 +121,10 @@
     margin: 0 20px;
   }
   .dev {
-    color: white;
+    color: rgb(238, 173, 173);
     text-align: center;
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 @media screen and (max-width: 900px) and (min-width: 520px) {
@@ -159,28 +161,29 @@
     justify-content: center;
   }
   .p1 {
-    color: white;
+    color: rgb(193, 192, 192);
     font-size: 13px;
   }
   .input {
     border: none;
     outline: none;
-    background-color: black;
+
     height: 45px;
     width: 45vw;
     padding: 0 10px;
     border-radius: 4px;
     margin-bottom: 20px;
     color: rgb(178, 170, 170);
-    border: 1px solid rgb(93, 84, 60);
+    background-color: rgb(15, 15, 15);
+    border: 1px solid rgb(25, 25, 25);
     margin-top: 8px;
-    box-shadow: rgb(54, 54, 54) 0 0 3px 0;
+    /* box-shadow: rgb(54, 54, 54) 0 0 3px 0; */
   }
   .input1 {
     resize: none;
     border: none;
     outline: none;
-    background-color: black;
+
     height: 157px;
     width: 45vw;
     padding: 5px 10px;
@@ -188,18 +191,20 @@
     margin-bottom: 0px;
     color: white;
     margin-top: 8px;
-    border: 1px solid rgb(93, 84, 60);
-    box-shadow: rgb(54, 54, 54) 0 0 3px 0;
+    background-color: rgb(15, 15, 15);
+    border: 1px solid rgb(25, 25, 25);
+    /* box-shadow: rgb(54, 54, 54) 0 0 3px 0; */
   }
   .btn {
     border: none;
 
     outline: none;
-    background-color: rgb(93, 84, 60);
+    background-color: rgb(35, 35, 35);
+
     height: 45px;
     width: 45vw;
     border-radius: 4px;
-    color: rgb(0, 0, 0);
+    color: rgb(213, 201, 201);
     font-weight: 600;
     /* border: 1px solid rgb(93, 84, 60); */
   }
@@ -223,12 +228,12 @@
     justify-content: flex-start;
   }
   .p2 {
-    color: white;
+    color: rgb(215, 213, 213);
     font-size: 13px;
   }
   .p3 {
     color: white;
-    color: rgb(93, 84, 60);
+    color: rgb(125, 124, 124);
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 15px;
@@ -243,11 +248,11 @@
 
   .icon {
     font-size: 30px;
-    color: rgb(163, 156, 125);
+    color: rgb(199, 194, 171);
     margin: 0 20px;
   }
   .dev {
-    color: white;
+    color: rgb(224, 187, 187);
     text-align: center;
     font-size: 13px;
     font-weight: 500;
@@ -311,7 +316,7 @@
     resize: none;
     border: none;
     outline: none;
-    background-color: rgb(15, 15, 15);
+
     height: 157px;
     width: 93vw;
     padding: 5px 10px;
@@ -319,6 +324,7 @@
     margin-bottom: 0px;
     color: white;
     margin-top: 5px;
+    background-color: rgb(15, 15, 15);
     border: 1px solid rgb(25, 25, 25);
     /* box-shadow: rgb(54, 54, 54) 0 0 3px 0; */
   }
@@ -326,13 +332,15 @@
     border: none;
 
     outline: none;
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(35, 35, 35);
     height: 45px;
     width: 93vw;
     border-radius: 4px;
+    font-size: 16px;
     color: rgb(0, 0, 0);
     font-weight: 600;
     margin-bottom: 20px;
+    color: rgb(243, 230, 230);
     /* border: 1px solid rgb(93, 84, 60); */
   }
   .part1 {

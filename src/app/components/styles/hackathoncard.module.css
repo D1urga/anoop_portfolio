@@ -1,6 +1,6 @@
 @media screen and (min-width: 900px) {
   .outer_div {
-    height: 400px;
+    height: 410px;
     background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     padding: 20px 0;
     border-bottom: 1px solid rgb(8, 8, 8);
   }
@@ -18,16 +18,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     padding: 20px 0;
     border-top: 1px solid rgb(8, 8, 8);
   }
   .title1 p {
-    color: rgb(209, 197, 133);
+    color: rgb(196, 120, 120);
     font-weight: 500;
   }
   .title p {
-    color: rgb(196, 194, 120);
+    color: rgb(196, 120, 120);
     font-weight: 600;
   }
   .body {
@@ -47,12 +47,13 @@
   .p2 {
     color: rgb(213, 213, 213);
     font-size: 14px;
+    word-break: break-all;
     line-height: 20px;
   }
 }
 @media screen and (max-width: 900px) and (min-width: 520px) {
   .outer_div {
-    height: 400px;
+    height: 410px;
     background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
@@ -62,7 +63,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     padding: 20px 0;
     border-bottom: 1px solid rgb(8, 8, 8);
   }
@@ -70,7 +71,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     padding: 20px 0;
     border-top: 1px solid rgb(8, 8, 8);
   }
@@ -88,7 +89,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px 40px;
+    padding: 10px 20px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,6 +101,7 @@
     color: rgb(213, 213, 213);
     font-size: 14px;
     line-height: 20px;
+    word-break: break-all;
   }
 }
 @media screen and (max-width: 520px) {
