@@ -56,7 +56,7 @@ export default function Contact() {
           <p className={styles.p3}> Mathura ,Uttar Pradesh</p>
           <p className={styles.p2}>Availabity</p>
           <p className={styles.p3}>
-            Available for calls and massages 7 days week
+            Available for call and messages 7 days week
           </p>
         </div>
       </div>
